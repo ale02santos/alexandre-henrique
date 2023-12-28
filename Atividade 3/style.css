@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    height:100vh;
+    background:linear-gradient(90deg, rgb(0, 0, 0),rgb(200, 236, 239) ) ; 
+    display: flex;
+    color: white;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    height: 140px;
+    margin: 0%;
+}
+.text h1{
+    font-size: 90px;
+    font-weight: 900;
+}
+.text h2{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.text {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.computer{
+    width: 700px;
+    height: 700px;
+}
+main{
+    display: grid;
+    justify-items: center;
+    gap: 100px;
+    padding: 100px;
+    color: white;
+    background-color: rgb(139, 145, 205);
+}
+.h2{
+    font-size: 50px;
+}
+.cards{
+    display: flex;
+    gap: 80px;
+}
+.card img{
+    height: 250px;
+    width: 250px;
+    border-radius: 0 50px 0 0;
+}
+.card{
+    background-color: white;
+    border-radius: 0 50px 0 50px;
+    width: 250px;
+    padding: 25px;
+    color: rgb(33, 36, 59);
+    text-align: center;
+}
